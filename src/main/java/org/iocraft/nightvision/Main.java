@@ -1,4 +1,4 @@
-package org.iocraft.accounts;
+package org.iocraft.nightvision;
 
 import org.bukkit.Bukkit;
 import org.bukkit.ChatColor;
@@ -16,7 +16,7 @@ public final class Main extends JavaPlugin {
     
     @Override
     public void onEnable() {
-        getLogger().info("IO-Accounts has been enabled!");
+        getLogger().info("IO-NightVision has been enabled!");
         
         saveDefaultConfig();
     }
@@ -202,7 +202,7 @@ public final class Main extends JavaPlugin {
                 sender.sendMessage(ChatColor.GREEN + "Configuration reloaded!");
                 return true;
             } else if (args[0].equalsIgnoreCase("help") && p.hasPermission("accounts.help")) {
-                sender.sendMessage(ChatColor.GOLD + "=-=-=-=-=-=-=-> " + ChatColor.YELLOW + "IO-Accounts" + ChatColor.GOLD + " <-=-=-=-=-=-=-=");
+                sender.sendMessage(ChatColor.GOLD + "=-=-=-=-=-=-=-> " + ChatColor.YELLOW + "IO-NightVision" + ChatColor.GOLD + " <-=-=-=-=-=-=-=");
                 sender.sendMessage(ChatColor.GOLD + "[" + ChatColor.YELLOW + "PL" + ChatColor.GOLD + "] " + ChatColor.RED + "/accounts help: " + ChatColor.GOLD + "Shows commands in the plugin.");
                 sender.sendMessage(ChatColor.GOLD + "[" + ChatColor.YELLOW + "PL" + ChatColor.GOLD + "] " + ChatColor.RED + "/website: " + ChatColor.GOLD + "Displays a link to the server website.");
                 sender.sendMessage(ChatColor.GOLD + "[" + ChatColor.YELLOW + "PL" + ChatColor.GOLD + "] " + ChatColor.RED + "/vote: " + ChatColor.GOLD + "Displays a link to a voting website for this server.");
@@ -218,7 +218,7 @@ public final class Main extends JavaPlugin {
                 sender.sendMessage(ChatColor.GOLD + "[" + ChatColor.YELLOW + "PL" + ChatColor.GOLD + "] " + ChatColor.RED + "/instagram: " + ChatColor.GOLD + "Displays a link to the server Instagram page");
                 sender.sendMessage(ChatColor.GOLD + "[" + ChatColor.YELLOW + "PL" + ChatColor.GOLD + "] " + ChatColor.RED + "/link: " + ChatColor.GOLD + "Displays a link to whatever an admin has set.");
                 sender.sendMessage(ChatColor.GOLD + "[" + ChatColor.YELLOW + "PL" + ChatColor.GOLD + "] " + ChatColor.RED + "/accounts reload: " + ChatColor.GOLD + "Reload the configuration.");
-                sender.sendMessage(ChatColor.GOLD + "=-=-=-=-=-=-=-> " + ChatColor.YELLOW + "IO-Accounts" + ChatColor.GOLD + " <-=-=-=-=-=-=-=");
+                sender.sendMessage(ChatColor.GOLD + "=-=-=-=-=-=-=-> " + ChatColor.YELLOW + "IO-NightVision" + ChatColor.GOLD + " <-=-=-=-=-=-=-=");
             }
             return true;
         } else {
@@ -229,6 +229,6 @@ public final class Main extends JavaPlugin {
 
     @Override
     public void onDisable() {
-        getLogger().info("IO-Accounts has been disabled!");
+        getLogger().info("IO-NightVision has been disabled!");
     }
 }

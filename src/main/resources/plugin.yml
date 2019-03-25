@@ -1,7 +1,7 @@
-name: IO-Accounts
-main: org.iocraft.accounts.Main
+name: IO-NightVision
+main: org.iocraft.nightvision.Main
 version: 1.0.0
-description: IO-Accounts is a plugin designed for database accounting of players. Mostly for our wiki users.
+description: IO-NightVision is a plugin designed for a simple night vision ability and permission.
 author: ioCraft.org Team
 website: https://www.iocraft.org
 
@@ -77,7 +77,7 @@ commands:
 
 permissions:
     accounts.*:
-        description: Gives access to all IO-Accounts commands.
+        description: Gives access to all IO-NightVision commands.
         children:
             accounts.player.*: true
             accounts.reload: true
@@ -100,7 +100,7 @@ permissions:
             accounts.link: true
             accounts.reload: false
     accounts.help:
-        description: Show a list of commands for IO-Accounts.
+        description: Show a list of commands for IO-NightVision.
         default: true
     accounts.website:
         description: Shows the link to a website you set.

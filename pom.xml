@@ -3,12 +3,12 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
-    <groupId>org.iocraft.accounts</groupId>
-    <artifactId>IO-Accounts</artifactId>
+    <groupId>org.iocraft.nightvision</groupId>
+    <artifactId>IO-NightVision</artifactId>
     <version>1.0.0</version>
     <profiles>
         <profile>
-            <id>org.iocraft.accounts</id>
+            <id>org.iocraft.nightvision</id>
             <build>
 				<finalName>${project.artifactId}</finalName>
                 <directory>src/main/java/</directory>
