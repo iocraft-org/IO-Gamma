@@ -1,4 +1,5 @@
 ![](https://www.iocraft.org/mini.png)
-Visit our site here: https://www.iocraft.org
 >>>>>>> # IO-NightVision
+Visit our site here: https://www.iocraft.org
+======
 Simple night vision ability and permission for Spigot servers.
