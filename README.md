@@ -2,8 +2,8 @@
 >>>>>>> # IO-NightVision 
 Simple night vision ability and permission for Spigot servers.
 # Features
--[x] Night Vision
--[x] Permission Node
+- [x] Night Vision
+- [x] Permission Node
 # Run Requirements
 Tested only on Thermos 1614. (Bukkit/Spigot 1.8+)
 # Build Requirements
