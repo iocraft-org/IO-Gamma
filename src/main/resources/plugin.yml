@@ -9,138 +9,30 @@ commands:
    accounts:
       description: Includes info and reloads.
       usage: /accounts <help, reload>
-   website:
-      description: Shows the link to a website you set.
-      usage: /website
-      permission: accounts.website
-      permission-message: You don't have <permission>
-   vote:
-      description: Shows the link to a voting website you set.
-      usage: /vote
-      permission: accounts.vote
-      permission-message: You don't have <permission>
-   forums:
-      description: Shows the link to a forum you set.
-      usage: /forums
-      permission: accounts.forums
-      permission-message: You don't have <permission>
-   shop:
-      description: Shows the link to a server shop you set.
-      usage: /shop
-      permission: accounts.shop
-      permission-message: You don't have <permission>
-   voice:
-      description: Shows the IP to a voice server you set.
-      usage: /voice
-      permission: accounts.voice
-      permission-message: You don't have <permission>
-   map:
-      description: Shows the link to a DynMap page you set.
-      usage: /map
-      permission: accounts.dynmap
-      permission-message: You don't have <permission>
-   wiki:
-      description: Shows the link to a wiki you set.
-      usage: /wiki
-      permission: accounts.wiki
-      permission-message: You don't have <permission>
-   facebook:
-      description: Shows the link to a Facebook page.
-      usage: /facebook
-      permission: accounts.facebook
-      permission-message: You don't have <permission>
-   twitter:
-      description: Shows the link to a Twitter page.
-      usage: /twitter
-      permission: accounts.twitter
-      permission-message: You don't have <permission>
-   youtube:
-      description: Shows the link to a YouTube page.
-      usage: /youtube
-      permission: accounts.youtube
-      permission-message: You don't have <permission>
-   google+:
-      description: Shows the link to a Google+ page you set.
-      usage: /google+
-      permission: accounts.googleplus
-      permission-message: You don't have <permission>
-   instagram:
-      description: Shows the link to an Instagram page you set.
-      usage: /instagram
-      permission: accounts.instagram
-      permission-message: You don't have <permission>
-   link:
-      description: Shows the link to any URL you set.
-      usage: /link
-      permission: accounts.link
+   nv:
+      description: Toggles night vision.
+      usage: /nv
+      permission: io.nightvision.nv
       permission-message: You don't have <permission>
 
 permissions:
-    accounts.*:
+    io.nightvision.*:
         description: Gives access to all IO-NightVision commands.
         children:
-            accounts.player.*: true
-            accounts.reload: true
-    accounts.player.*:
+            io.nightvision.player.*: true
+            io.nightvision.reload: true
+    io.nightvision.player.*:
         description: Gives access to all player commands.
         children:
-            accounts.help: true
-            accounts.website: true
-            accounts.vote: true
-            accounts.forums: true
-            accounts.shop: true
-            accounts.voice: true
-            accounts.dynmap: true
-            accounts.wiki: true
-            accounts.facebook: true
-            accounts.twitter: true
-            accounts.youtube: true
-            accounts.googleplus: true
-            accounts.instagram: true
-            accounts.link: true
-            accounts.reload: false
-    accounts.help:
+            io.nightvision.help: true
+            io.nightvision.nv: true
+            io.nightvision.reload: false
+    io.nightvision.help:
         description: Show a list of commands for IO-NightVision.
         default: true
-    accounts.website:
-        description: Shows the link to a website you set.
+    io.nightvision.nv:
+        description: Toggles night vision.
         default: true
-    accounts.vote:
-        description: Shows the link to a voting website you set.
-        default: true
-    accounts.forums:
-        description: Shows the link to a forum you set.
-        default: true
-    accounts.shop:
-        description: Shows the link to a server shop you set.
-        default: true
-    accounts.voice:
-        description: Shows the IP to a voice server you set.
-        default: true
-    accounts.dynmap:
-        description: Shows the link to a DynMap page you set.
-        default: true
-    accounts.wiki:
-        description: Shows the link to a wiki you set.
-        default: true
-    accounts.facebook:
-        description: Shows the link to a Facebook page you set.
-        default: true
-    accounts.twitter:
-        description: Shows the link to a Twitter page you set.
-        default: true
-    accounts.youtube:
-        description: Shows the link to a YouTube page you set.
-        default: true
-    accounts.googleplus:
-        description: Shows the link to a Google+ page you set.
-        default: true
-    accounts.instagram:
-        description: Shows the link to an Instagram page you set.
-        default: true
-    accounts.link:
-        description: Shows the link to any URL you set.
-        default: true
-    accounts.reload:
+    io.nightvision.reload:
         description: Reload the configuration.
         default: op
