@@ -5,7 +5,7 @@ Simple night vision ability and permission for Spigot servers.
 - [x] Night Vision
 - [x] Permission Node
 # Run Requirements
-Tested only on Thermos 1614. (Bukkit/Spigot 1.8+)
+- Spigot Server
 # Build Requirements
 - Maven 2.x
 - Java SDK 8+
