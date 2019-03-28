@@ -1,8 +1,8 @@
 ![](https://www.iocraft.org/mini.png)
 >>>>>>> # IO-Gamma 
-Simple night vision ability and permission for Spigot servers.
+Simple gamma vision ability and permission for Spigot servers.
 # Features
-- [x] Night Vision
+- [x] Gamma Vision (Night Vision)
 - [x] Permission Node
 # Run Requirements
 - Spigot Server
@@ -10,12 +10,12 @@ Simple night vision ability and permission for Spigot servers.
 - Maven 2.x
 - Java SDK 8+
 # Example Usage + Permissions
-## /nv
-Permission node `io.nightvision.use` or `io.nightvision.player`. Toggles night vision.
-## /nv help
-Permission node `io.nightvision.use` or `io.nightvision.player` or `io.nightvision.help`.  Displays help message.
-## /nv reload 
-Permission node `io.nightvision.reload`. Reloads the configuration file.
+## /gamma
+Permission node `io.gamma.use` or `io.gamma.player`. Toggles night vision.
+## /gamma help
+Permission node `io.gamma.use` or `io.gamma.player` or `io.gamma.help`.  Displays help message.
+## /gamma reload 
+Permission node `io.gamma.reload`. Reloads the configuration file.
 ## Configuration Notes
 Use the regular `&` Minecraft color and formatting codes. The plugin will automatically parse them. All messages and the prefix are configurable.
 ```
