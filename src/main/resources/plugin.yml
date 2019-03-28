@@ -1,7 +1,7 @@
-name: IO-NightVision
-main: org.iocraft.nightvision.Main
+name: IO-Gamma
+main: org.iocraft.gamma.Main
 version: 1.0.0
-description: IO-NightVision is a plugin designed for a simple night vision ability and permission.
+description: IO-Gamma is a plugin designed for a simple night vision ability and permission.
 author: ioCraft.org Team
 website: https://www.iocraft.org
 
@@ -12,27 +12,27 @@ commands:
    nv:
       description: Toggles night vision.
       usage: /nv
-      permission: io.nightvision.nv
+      permission: io.gamma.nv
       permission-message: You don't have <permission>
 
 permissions:
-    io.nightvision.*:
-        description: Gives access to all IO-NightVision commands.
+    io.gamma.*:
+        description: Gives access to all IO-Gamma commands.
         children:
-            io.nightvision.player.*: true
-            io.nightvision.reload: true
-    io.nightvision.player.*:
+            io.gamma.player.*: true
+            io.gamma.reload: true
+    io.gamma.player.*:
         description: Gives access to all player commands.
         children:
-            io.nightvision.help: true
-            io.nightvision.nv: true
-            io.nightvision.reload: false
-    io.nightvision.help:
-        description: Show a list of commands for IO-NightVision.
+            io.gamma.help: true
+            io.gamma.nv: true
+            io.gamma.reload: false
+    io.gamma.help:
+        description: Show a list of commands for IO-Gamma.
         default: true
-    io.nightvision.nv:
+    io.gamma.nv:
         description: Toggles night vision.
         default: true
-    io.nightvision.reload:
+    io.gamma.reload:
         description: Reload the configuration.
         default: op
