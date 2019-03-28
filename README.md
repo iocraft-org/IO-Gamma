@@ -1,5 +1,5 @@
 ![](https://www.iocraft.org/mini.png)
->>>>>>> # IO-NightVision 
+>>>>>>> # IO-Gamma 
 Simple night vision ability and permission for Spigot servers.
 # Features
 - [x] Night Vision

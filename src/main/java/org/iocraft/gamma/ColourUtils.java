@@ -1,4 +1,4 @@
-package org.iocraft.nightvision;
+package org.iocraft.gamma;
 
 import org.bukkit.Bukkit;
 import org.bukkit.ChatColor;
