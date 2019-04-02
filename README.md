@@ -1,4 +1,4 @@
-![](https://www.iocraft.org/mini.png)
+![](https://raw.githubusercontent.com/iocraft-org/IO-Extras/master/images/64x64.png)
 >>>>>>> # IO-Gamma 
 Simple gamma vision ability and permission for Spigot servers.
 # Features
